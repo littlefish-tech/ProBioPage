@@ -1,0 +1,21 @@
+
+   .jumbotron {
+    background-image: url("images/background17.jpeg");
+    background-size: cover;
+    height: 100%;
+  }
+  .nameHeader {
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .nameDescript {
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .tab-pane {
+      background-image: url("images/background20.jpeg");
+      padding: 10px;
+      height: 900px;
+  }
+  img {
+      float: left;
+      margin-right: 10px;
+  }
