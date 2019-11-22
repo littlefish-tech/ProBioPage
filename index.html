@@ -10,65 +10,42 @@
 
     <title>Yimeng Yu</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+   
   </head>
   <body>
     <div class = "container">
     <div class="jumbotron jumbotron-fluid" >
-      <div class="container text-white">
+      <div class = "row">
+      <div class="container nameContainer text-white col-lg-8 col-ms-8 col-sm-12">
         <h1 class="nameHeader display-4 font-weight-bold">Yimeng Yu</h1>
         <p class="nameDescript lead font-weight-normal">A passionate Full Stack Developer</p>
       </div>
+      <div class = "container float-lg-right float-md-right col-lg-4 col-md-4 col-sm-12">
+      
+      <div class = "weather ">Your Local Temperature: 
+
+      </div>
+      </div>
     </div>
-    <div class="row">
-        <div class="col-lg-3 col-md-3 col-sm-12 text-lg-left text-md-left text-sm-center">
-          <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-            <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
-            <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
-            <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
-            <!-- <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a> -->
-          </div>
+    <nav>
+        <div class="nav nav-tabs bg-secondary" id="nav-tab" role="tablist">
+          <a class="nav-item nav-link active text-black" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">About</a>
+          <a class="nav-item nav-link text-black" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-portfolio" aria-selected="false">Profolio</a>
+          <a class="nav-item nav-link text-black" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</a>
         </div>
-        <div class="col-lg-9 col-md-9 col-sm-12 text-lg-left text-md-left text-sm-left">
-          <div class="tab-content" id="v-pills-tabContent">
-            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-              <img src="images/bio.JPG" alt="Yimeng Yu" width="120px" height="160px">
-              <p>
-                My name is Yimeng Yu. You can always call me Yvonne. I am currently a student enrolled at UC Berkeley Full Stack Developer Program.
-              </p>
-              <p>'I don't have any background. My bachlor degree is in Account and Corporate Finance. I have been working as Financial Advisor and Start Up techonology Office Manager. </p>
-              <p>
-                I can feel I have learned a lot during the first 2 months. It is only 2 months, but sometimes I feel it likes a year. The study pace is so intense, and we learned HTML, CSS, Javascript, API, JSON, Jquery, Firefox for only 2 months period. I am really appreciate the instructors, TAs and tutors who provides me a lot of support.
-              </p>
-              <p>
-                We recently just finished our first team project. It is not a easy process.
-              </p>
-              <ol>
-                <li>
-                  The team members needs to come to an agreement. We come up with different ideas, but we later all decide the news 
-                </li>
-                <li>
-                  We are have allocated the parts we needs to focus on, and we can also get help from our teammates. As I primaryly work on the weather and weather pollen part, and my teammates helped me a lot during the whole process. After this project, I realized how important teamwork means during the development process. 
-                </li>
-                <li>
-                  I have learned a lot during the whole project process. As I primaryly wokring on the weather and pollen part, I will need to do a lot of research about all different weather APIs and finally find one that can provide us all the information we need. The moment I saw my local API, I was so existed that I finally amde it.  
-                </li>
-              </ol>
-              <p>
-                My personal habit includes reading, cooking. I like to learn to cook all different dishes as I think it is very fun to combine different cultures' dishes and create your own recipes. 
-              </p>
-            </div>
-            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                <a href="profile.html">Profile</a></div>
-            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
-            <!-- <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div> -->
-          </div>
-        </div>
+      </nav>
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">...</div>
+        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
+        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
       </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="javascript/weather.js"></script>
   </div>
   </body>
 </html>
