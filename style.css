@@ -1,6 +1,6 @@
 
    .jumbotron {
-    background-image: url("images/background32.jpeg");
+    background-color: #A67F78;
     background-size: cover;
     height: 100%;
     margin-bottom: 0px;
@@ -16,7 +16,7 @@
       padding-bottom: 20px;
   }
   .tab-pane {
-      background-image: url("images/background4.jpeg");
+      background-COLOR: #E1DCD9;
       padding: 10px;
       height: 900px;
   }
