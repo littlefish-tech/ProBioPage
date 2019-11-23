@@ -20,10 +20,10 @@
       padding: 10px;
       height: 900px;
   }
-  img {
+  /* img {
       float: left;
       margin-right: 10px;
-  }
+  } */
   .nav {
       background-color: pink;
   }
@@ -32,9 +32,17 @@
     text-decoration: none;
     background-color: transparent;
 }
-/* .card {
+.card-img-top {
+    margin-top: 10px;
+}
+.formContainer {
     margin: 10px;
-} */
-.cardImages{
-    
+}
+
+.card {
+    margin: 10px;
+}
+
+.page-footer {
+    background-color: #A67F78;
 }
