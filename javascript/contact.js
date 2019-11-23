@@ -12,13 +12,13 @@ var firebaseConfig = {
   firebase.initializeApp(firebaseConfig);
 
 
-  var database = fire.database();
+  var database = firebase.database();
   $("#add-visitor-btn").on("click", function(event) {
       event.preventDefault();
 
       var visitorName = $("#nameInput").val().trim();
       var visitorEmail = $("#emailInput").val().trim();
-      var visitorMessage = $("messageText").val().trim();
+      var visitorMessage = $("#messageText").val().trim();
   
 
   var newVisitor = {
@@ -29,9 +29,9 @@ var firebaseConfig = {
 
   database.ref().push(newVisitor);
 
-  console.log(visitorName.name);
-  console.log(visitorEmail.email);
-  console.log(visitorMessage.message);
+  console.log(newVisitor.name);
+  console.log(newVisitor.email);
+  console.log(newVisitor.message);
 
   $("#nameInput").val("");
   $("#emailInput").val("");
