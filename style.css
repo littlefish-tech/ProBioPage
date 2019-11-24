@@ -1,6 +1,6 @@
 
    .jumbotron {
-    background-color: #A67F78;
+    background-color: #706FAB;
     background-size: cover;
     height: 100%;
     margin-bottom: 0px;
@@ -24,8 +24,8 @@
       float: left;
       margin-right: 10px;
   } */
-  .nav {
-      background-color: pink;
+  .navbar {
+      background-color: #ffa289;
   }
   a {
     color: white;
@@ -49,3 +49,14 @@
 .fab {
     color: black;
 }
+
+/* .portfolioContainer {
+    background-color: #6a92cc;
+} */
+/* .formContainer 
+{
+    background-color: #6a92cc;
+} */
+/* .pContainer{
+    background-color: #6a92cc;
+} */
