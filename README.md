@@ -30,6 +30,8 @@ callweather()
     - linkedIn is one of the most popular professional network site.
     - Github is the world's leading software development platform, and developers and recruiters can find my projects and codes on my Github Account;
 
+![Weather, LinkedIn and Github](./images/LinkedInGithubImg.png)
+
 - Third, I want to gather people's message they submit to me, this is a good way to keep me the visitors connected and gather opinions from visitors. The Firebase wasn't working at the beginning, it was saying the permission denied. I did some research and solved the problem. I change the security rule to public. This seems a very easy modification, but this is also a learning process, each small correction is a big learning steps for me.
 
 ``` javascript
@@ -88,3 +90,14 @@ console.log(visitorMessage);
 
 })
 ```
+
+![Firebase backend data](./images/firebaseDate.png)
+
+### Technologies I used in this project:
+- HTML
+- CSS
+- Bootstrap
+- Javascript
+- API key
+- Firebase
+- FontAwesome
