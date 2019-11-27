@@ -1,4 +1,6 @@
 # ProBioPage
+![My Profile overview](./images/1st.gif)
+
 ### This is my updated version of Portfolio website. I still can remember the first time when I was using the bootstrap create my portfolio website, I felt it was too hard and struggling with all the styples not follow my instruction. Now I feel, Bootstrap is a very useful tool, it does help to make developer's life more easier.
 
 ### This time, I am adding a little more things I was learning during the recently classes. 
