@@ -45,8 +45,15 @@
 
 .page-footer {
     background-color: #A67F78;
-}
+} I’m 
 .fab {
     color: black;
 }
 
+/* @media screen and (max-width: 640px) { */
+    /* The body's bg color will be #333 */
+    /* .imgContainer {
+      width: 600px;
+      padding: 20px;
+    }
+} */
